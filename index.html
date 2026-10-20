@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ice Screamin – Orlando</title>
+<style>
+:root{--bg:#fff7fb;--card:#ffffff;--ink:#3a2335;--muted:#7a6376;--pink:#e8478b;--mint:#2bb3a0;--line:#f2d9e6;--hero:#ffd9ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1220;--card:#2a1a2e;--ink:#fbeaf3;--muted:#c6a9bd;--pink:#ff6fae;--mint:#4fd6c2;--line:#47304a;--hero:#3a1f3f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d1220;--card:#2a1a2e;--ink:#fbeaf3;--muted:#c6a9bd;--pink:#ff6fae;--mint:#4fd6c2;--line:#47304a;--hero:#3a1f3f;color-scheme:dark}
+html{scroll-padding-top:64px;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Trebuchet MS",system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.55}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:18px;justify-content:center;padding:12px;z-index:5;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-weight:700;font-size:.95rem}
+nav a:hover{color:var(--pink)}
+header{background:var(--hero);text-align:center;padding:56px 20px 48px}
+h1{margin:0;font-size:clamp(2.2rem,7vw,3.8rem);color:var(--pink);letter-spacing:-1px}
+header p{max-width:560px;margin:12px auto 0;color:var(--ink)}
+.btn{display:inline-block;margin-top:20px;background:var(--pink);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700}
+main{max-width:980px;margin:0 auto;padding:0 18px 48px}
+section{padding-top:44px}
+h2{font-size:1.7rem;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.card h3{margin:0 0 8px;color:var(--pink);font-size:1.1rem}
+.card ul{margin:0;padding-left:18px}
+.card li{margin:4px 0}
+.tag{display:inline-block;background:var(--mint);color:#0d2b27;font-size:.75rem;font-weight:700;padding:2px 9px;border-radius:999px;margin-bottom:8px}
+.flavors{display:flex;flex-wrap:wrap;gap:8px}
+.flavors span{background:var(--card);border:1px solid var(--line);padding:6px 13px;border-radius:999px;font-size:.92rem}
+.loc{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.pin{font-size:2rem}
+.stars{color:var(--pink);letter-spacing:2px}
+.note{font-size:.85rem;color:var(--muted);margin-top:14px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:24px 18px 40px;border-top:1px solid var(--line)}
+a.lnk{color:var(--pink);font-weight:700}
+</style>
+</head>
+<body>
+<nav><a href="#about">About</a><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#location">Location</a></nav>
+
+<header>
+<div style="font-size:3rem">🍨</div>
+<h1>Ice Screamin</h1>
+<p>Small-batch Amish-style ice cream, smash-donut sandwiches, bubble waffles and viral Dubai chocolate treats, just minutes from UCF in East Orlando.</p>
+<a class="btn" href="#location">Get Directions</a>
+</header>
+
+<main>
+<section id="about">
+<h2>About</h2>
+<p class="sub">Family-owned dessert shop</p>
+<div class="grid">
+<div class="card"><h3>30+ Flavors</h3>Premium Amish-style ice cream is the star, scooped fresh and used as the base for every creation.</div>
+<div class="card"><h3>Open Late</h3>Built for after-dinner dessert runs and late-night cravings near campus.</div>
+<div class="card"><h3>Student Deal</h3>Reported back-to-school offer: 20% off with a valid student ID, Aug 24 – Sep 30. Ask in store about current promos.</div>
+</div>
+</section>
+
+<section id="menu">
+<h2>Menu</h2>
+<p class="sub">What the shop is known for</p>
+
+<h3 style="margin-bottom:10px">Ice cream flavors</h3>
+<div class="flavors">
+<span>Cookies &amp; Cream</span><span>Strawberry Cheesecake</span><span>Birthday Cake</span><span>Banana Cream Pie</span><span>Cookie Butter</span><span>Double Fudge Brownie</span><span>Butter Pecan</span><span>Espresso Chip</span><span>+ 20 more</span>
+</div>
+
+<div class="grid" style="margin-top:24px">
+<div class="card"><span class="tag">Signature</span><h3>Sweet Creations</h3>
+<ul><li>Smashed donut ice cream sandwiches</li><li>Handcrafted bubble waffles</li><li>Crepes</li><li>Waffle sticks</li><li>Fresh-baked cookies</li></ul></div>
+<div class="card"><span class="tag">Classics</span><h3>Scoops &amp; Sundaes</h3>
+<ul><li>Scoops in cups or cones</li><li>Specialty sundaes</li><li>Banana splits</li><li>Loaded milkshakes</li><li>Cake &amp; ice cream creations</li></ul></div>
+<div class="card"><span class="tag">Viral</span><h3>Dubai Chocolate Menu</h3>
+<ul><li>Dubai Strawberry Cups</li><li>Dubai Chocolate Bubble Waffles</li><li>Dubai Brownies</li><li>Handmade Dubai Chocolate Bars</li></ul></div>
+<div class="card"><span class="tag">Also</span><h3>Drinks</h3>
+<ul><li>Milkshakes</li><li>Other drinks available in store</li></ul></div>
+</div>
+<p class="note">Prices and the complete item list aren't publicly posted in sources I could access, so this reflects the menu items reported by local press and Google listing. Check the shop for current pricing and flavors.</p>
+</section>
+
+<section id="reviews">
+<h2>Reviews</h2>
+<p class="sub"><span class="stars">★★★★★</span> &nbsp;76 reviews on Google</p>
+<div class="grid">
+<div class="card"><h3>“Amazing”</h3>A guest raved about the Dubai brownie with vanilla ice cream: warm and fudgy against smooth, rich ice cream.</div>
+<div class="card"><h3>“High-quality ingredients”</h3>Another reviewer praised the flavor of the ice cream and the wide selection, including crepes, donut ice cream sandwiches and drinks.</div>
+</div>
+<p class="note">Review themes summarized from the Google listing. <a class="lnk" href="https://www.yelp.com/biz/ice-screamin-orlando-2" target="_blank" rel="noopener">Read more on Yelp</a></p>
+</section>
+
+<section id="location">
+<h2>Location</h2>
+<p class="sub">East Orlando, near UCF</p>
+<div class="loc">
+<div class="card"><div class="pin">📍</div><h3>Ice Screamin</h3>10165 University Blvd<br>Orlando, FL 32817
+<br><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Ice+Screamin+10165+University+Blvd+Orlando+FL+32817">Open in Google Maps</a></div>
+<div class="card"><h3>Visit</h3>Minutes from the University of Central Florida campus, a handy stop for students and locals after dinner.<br><br>
+<a class="lnk" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=10165+University+Blvd+Orlando+FL+32817">Get driving directions →</a></div>
+</div>
+</section>
+</main>
+<footer>Ice Screamin · 10165 University Blvd, Orlando, FL 32817 · Unofficial fan page</footer>
+</body>
+</html>
